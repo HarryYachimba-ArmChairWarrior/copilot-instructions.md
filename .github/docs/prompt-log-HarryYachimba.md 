@@ -53,3 +53,12 @@ The workflow successfully updated severity, attack type, affected software, IOCs
 Created a test threat record titled “Suspicious PowerShell Activity” and executed the workflow.
 **What I Learned:**
 Airtable field consistency and workflow filters are critical for reliable automation handoffs.
+
+## Week 10 Workflow Updates
+- Added IF-node routing after Groq HTTP Request node
+- Implemented API failure detection logic
+- Added Airtable error-handling branch
+- Configured “Error Monitor” Airtable view
+- Configured “Pipeline Status” Airtable view
+- Tested workflow using intentionally broken Groq API endpoint
+- Updated Airtable records with error reasons after failed API requests
